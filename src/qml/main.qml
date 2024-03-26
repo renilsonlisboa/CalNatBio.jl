@@ -248,7 +248,7 @@ ApplicationWindow {
                 Connections {
                     target: processtipoFlorestal
                     onClicked: {
-                        busyIndicatorTipologia.running = true
+                        busyIndicatorTipologia.running = false //é true
 
                         var columnVectors = []
 
