@@ -7,7 +7,7 @@ using Statistics
 import Plots: scatter, plot!, savefig
 
 # Exporta a função Inventory possibilitando ser chamada via terminal pelo usuário
-export RunApp()
+export RunApp
 
     # Define a função de ajuste de equação
     function ajustarEq(Dados, save, nivel)
